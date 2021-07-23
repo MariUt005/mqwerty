@@ -1,0 +1,21 @@
+html,
+body {
+  background-color: #020101;
+  color: #f7e8e3;
+  font-family: 'Inconsolata', monospace;
+  margin: 0;
+}
+
+div#main {
+  font-size: 50px;
+  width: 100vh;
+  height: 100vh;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+span#hello {
+  display: inline-inline-block;
+  border-bottom: 2px solid #f7e8e3;
+}
