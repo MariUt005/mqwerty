@@ -4,7 +4,6 @@ body {
   color: #f7e8e3;
   font-family: 'Inconsolata', monospace;
   margin: 0;
-  width: 100%;
 }
 
 div#main {
@@ -17,6 +16,5 @@ div#main {
 }
 
 span#hello {
-  display: inline-inline-block;
   border-bottom: 2px solid #f7e8e3;
 }
