@@ -16,11 +16,11 @@
       let delay = 1000;
       let i = 0;
 
-      function change_hello() {
+      function change_cursor() {
         if (i >= text.length) i = 0;
         document.getElementById("cursor").innerText = text[i];
         i++;
-        setTimeout("change_hello();", delay);
+        setTimeout("change_cursor();", delay);
       }
     </script>
   </head>
@@ -30,7 +30,7 @@
     </div>
 
     <script type="text/javascript">
-      change_hello();
+      change_cursor();
     </script>
   </body>
 </html>
